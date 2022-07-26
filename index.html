@@ -1,12 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/images/favicon-32x32.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <script type="module" src="/main.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/images/favicon-32x32.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <title>SunnySide Agency</title>
+</head>
+
+<body>
+  <header>
+    <nav class="primary-navigation">
+      <a class="logo" href="#">sunnyside</a>
+      <img src="/public/images/icon-hamburger.svg" alt="" class="clicker">
+      <ul class="nav-links" role="list">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Projects</a></li>
+        <button>CONTACT</button>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <h1 class="text-heading-main">we are creatives</h1>
+      <img src="/public/images/icon-arrow-down.svg" alt="" class="arrow">
+      <picture class="hero-image">
+        <source media="(max-width: 700px)" srcset="/images/mobile/image-header.jpg">
+        <img src="/public/images/desktop/image-header.jpg" alt="">
+      </picture>
+    </section>
+    <section class="service">
+      <div class="services">
+        <div class="service-text">
+          <h4 class="text-heading-sec">Transform your brand</h4>
+          <p class="text-body">We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through
+            compelling visuals that do most of the marketing for you.</p>
+          <a class="learn-btn-1" href="#">Learn More</a>
+        </div>
+        <picture>
+          <source media="(max-width: 500px)" srcset="/images/mobile/image-transform.jpg">
+          <img src="/images/desktop/image-transform.jpg" alt="">
+        </picture>
+      </div>
+      <div class="services">
+        <picture>
+          <source media="(max-width: 500px)" srcset="/images/mobile/image-stand-out.jpg">
+          <img src="/images/desktop/image-stand-out.jpg" alt="">
+        </picture>
+        <div class="service-text">
+          <h4 class="text-heading-sec">Stand out to the right audience</h4>
+          <p class="text-body">Using a collaborative formula of designers, researchers, photographers, videographers, and copyrighters,
+            we'll build and extend your brand in digital places.</p>
+          <a class="learn-btn-2" href="#">Learn More</a>
+        </div>
+      </div>
+      <div class="services">
+        <div class="offer">
+          <div class="offer-text">
+            <h5 class="">Graphic Design</h5>
+            <p class="text-body">Great design makes you memorable. we deliver <br> artwork that underscores your brand message <br> and captures
+              potential clients' attention.</p>
+          </div>
+          <picture>
+            <source media="(max-width: 500px )" srcset="/images/mobile/image-graphic-design.jpg">
+            <img src="/images/desktop/image-graphic-design.jpg" alt="">
+          </picture>
+        </div>
+        <div class="offer">
+          <div class="offer-text">
+            <h5>Photography</h5>
+            <p class="text-body">Increase your credibilty by getting the most <br> stunning, high-quality photos that improve your <br> business
+              image</p>
+          </div>
+          <picture>
+            <source media="(max-width: 500px )" srcset="/images/mobile/image-photography.jpg">
+            <img src="/images/desktop/image-photography.jpg" alt="">
+          </picture>
+        </div>
+      </div>
+    </section>
+    <section class="testimony">
+      <h1>Client Testimonials</h1>
+      <div class="testimonials">
+        <div class="testimony-details">
+          <img src="/public/images/image-emily.jpg" alt="">
+          <p>We put our trust in Sunnyside and they delivered, making sure our needs were metand deadlines were always
+            hit.</p>
+          <div class="signature">
+            <h2>Emily R.</h2>
+            <p>Marketing Director</p>
+          </div>
+        </div>
+        <div class="testimony-details">
+          <img src="/public/images/image-thomas.jpg" alt="">
+          <p>Sunnyside's ethusiasm coupled with their keen interest in our brands success made it a satisfying and
+            enjoyable expierience</p>
+          <div class="signature">
+            <h2>Thomas S.</h2>
+            <p>Chief Operating Officer</p>
+          </div>
+        </div>
+        <div class="testimony-details">
+          <img src="/public/images/image-jennie.jpg" alt="">
+          <p>Incredible end result! Our sales increased over 400% when we worked with SunnySide. Highly recommended!</p>
+          <div class="signature">
+            <h2>Jennie F.</h2>
+            <p>Business Owner</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="gallary">
+      <picture>
+        <source media="(max-width: 500px )" srcset="/images/mobile/image-gallery-milkbottles.jpg">
+        <img src="/images/desktop/image-gallery-milkbottles.jpg" alt="">
+      </picture>
+      <picture>
+        <source media="(max-width: 500px )" srcset="/images/mobile/image-gallery-orange.jpg">
+        <img src="/images/desktop/image-gallery-orange.jpg" alt="">
+      </picture>
+      <picture>
+        <source media="(max-width: 500px )" srcset="/images/mobile/image-gallery-cone.jpg">
+        <img src="/images/mdesktop/image-gallery-cone.jpg" alt="">
+      </picture>
+      <picture>
+        <source media="(max-width: 500px )" srcset="/images/mobile/image-gallery-sugarcubes.jpg">
+        <img src="/images/desktop/image-gallery-sugarcubes.jpg" alt="">
+      </picture>
+    </section>
+  </main>
+  <footer>
+    <a href="#">sunnyside</a>
+    <ul class="footer-nav">
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Projects</a></li>
+    </ul>
+  </footer>
+  <script src="/main.js" defer></script>
+</body>
+
 </html>
