@@ -320,6 +320,9 @@ button:hover {
     .testimony{
         padding: 50px;
     }
+    .testimony h1{
+        font-size: 1.2rem !important;
+    }
     .testimonials{
         display: flex;
         flex-direction: column;
@@ -357,7 +360,7 @@ footer a{
     margin-top: 30px;
 }
 .footer-nav li + li{
-    margin-left: 50px;
+    margin-left: 30px;
 }
 .footer-nav li a{
     color: var(--clr-primary-400);
@@ -371,4 +374,9 @@ footer a{
     display: flex;
     gap: 40px;
     margin-top: 30px;
+}
+@media(max-width:500px){
+    footer{
+        padding: 50px;
+    }
 }
