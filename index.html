@@ -36,7 +36,8 @@
       <div class="services">
         <div class="service-text">
           <h4 class="text-heading-sec">Transform your brand</h4>
-          <p class="text-body">We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through
+          <p class="text-body">We are a full-service creative agency specializing in helping brands grow fast. Engage
+            your clients through
             compelling visuals that do most of the marketing for you.</p>
           <a class="learn-btn-1" href="#">Learn More</a>
         </div>
@@ -52,7 +53,8 @@
         </picture>
         <div class="service-text">
           <h4 class="text-heading-sec">Stand out to the right audience</h4>
-          <p class="text-body">Using a collaborative formula of designers, researchers, photographers, videographers, and copyrighters,
+          <p class="text-body">Using a collaborative formula of designers, researchers, photographers, videographers,
+            and copyrighters,
             we'll build and extend your brand in digital places.</p>
           <a class="learn-btn-2" href="#">Learn More</a>
         </div>
@@ -61,7 +63,8 @@
         <div class="offer">
           <div class="offer-text">
             <h5 class="">Graphic Design</h5>
-            <p class="text-body">Great design makes you memorable. we deliver <br> artwork that underscores your brand message <br> and captures
+            <p class="text-body">Great design makes you memorable. we deliver <br> artwork that underscores your brand
+              message <br> and captures
               potential clients' attention.</p>
           </div>
           <picture>
@@ -72,7 +75,8 @@
         <div class="offer">
           <div class="offer-text">
             <h5>Photography</h5>
-            <p class="text-body">Increase your credibilty by getting the most <br> stunning, high-quality photos that improve your <br> business
+            <p class="text-body">Increase your credibilty by getting the most <br> stunning, high-quality photos that
+              improve your <br> business
               image</p>
           </div>
           <picture>
@@ -87,7 +91,8 @@
       <div class="testimonials">
         <div class="testimony-details">
           <img src="/public/images/image-emily.jpg" alt="">
-          <p class="text-body">We put our trust in Sunnyside and they delivered, making sure our needs were metand deadlines were always
+          <p class="text-body">We put our trust in Sunnyside and they delivered, making sure our needs were metand
+            deadlines were always
             hit.</p>
           <div class="signature">
             <h2>Emily R.</h2>
@@ -96,7 +101,8 @@
         </div>
         <div class="testimony-details">
           <img src="/public/images/image-thomas.jpg" alt="">
-          <p class="text-body">Sunnyside's ethusiasm coupled with their keen interest in our brands success made it a satisfying and
+          <p class="text-body">Sunnyside's ethusiasm coupled with their keen interest in our brands success made it a
+            satisfying and
             enjoyable expierience</p>
           <div class="signature">
             <h2>Thomas S.</h2>
@@ -105,7 +111,8 @@
         </div>
         <div class="testimony-details">
           <img src="/public/images/image-jennie.jpg" alt="">
-          <p class="text-body">Incredible end result! Our sales increased over 400% when we worked with SunnySide. Highly recommended!</p>
+          <p class="text-body">Incredible end result! Our sales increased over 400% when we worked with SunnySide.
+            Highly recommended!</p>
           <div class="signature">
             <h2>Jennie F.</h2>
             <p class="text-body">Business Owner</p>
@@ -146,7 +153,14 @@
       <img src="/images/icon-pinterest.svg" alt="">
     </div>
   </footer>
-  <script src="/main.js" defer></script>
+  <script>
+    const clicker = document.querySelector('.clicker');
+    const navBar = document.querySelector('.nav-links');
+
+    clicker.addEventListener('click', () => {
+      navBar.classList.toggle('hidden');
+    })
+  </script>
 </body>
 
 </html>
